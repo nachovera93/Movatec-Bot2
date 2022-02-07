@@ -1,0 +1,43 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- gracias
+- saludos
+- como_estas
+- que_fecha
+- que_hora
+- negación
+- preguntar_nombre
+- afirmación
+- out_of_scope
+- eres_humano
+- despedida
+- bien
+responses:
+  utter_default:
+  - text: Disculpe, no te entendí ¿me lo podrías repetir?
+  utter_despedida:
+  - text: Adiós :)
+  utter_bot:
+  - text: Me llamo Eva y soy tu asistente virtual.
+  utter_como_estoy:
+  - text: Yo espectacular y tu? :)
+  utter_porque:
+  - text: Por que todo va muy bien!
+  utter_espectacular:
+  - text: Espectacular!
+  utter_denada:
+  - text: De nada! :)
+actions:
+- action_dar_hora
+- action_fecha
+- action_greet_timeofday
+- utter_bot
+- utter_como_estoy
+- utter_default
+- utter_denada
+- utter_despedida
+- utter_espectacular
+- utter_porque

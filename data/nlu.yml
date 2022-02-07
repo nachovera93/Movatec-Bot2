@@ -1,0 +1,234 @@
+version: "2.0"
+nlu:
+- intent: eres_humano
+  examples: |
+    - eres un bot?
+    - eres bot?
+    - estoy hablando con una ia?
+    - eres un humano o un bot?
+    - eres real?
+    - eres virtual?
+    - eres una ai?
+    - no eres un bot
+    - eres un chatbot
+    - eres un bot real?
+    - eres un robot
+    - eres una inteligencia artifial
+    - eres artifical
+    - eres real
+    - eres de verdad un robot?
+    - eres de verdad un bot?
+    - estas seguro que eres un bot?
+    - bot?
+    - robot?
+    - eres un robot?
+    - como te llamas?
+    - con quien hablo?
+    - con quien?
+    - disculpa quien eres?
+    - cual es tu nombre?
+    - quien eres?
+    - quien me habla?
+    - con quien estoy hablando?
+- intent: afirmación
+  examples: |
+    - cierto
+    - correcto
+    - eso suena bien
+    - yes
+    - si porfavor
+    - porsupuesto
+    - yup
+    - yeah
+    - yes please
+    - seguro
+    - ye
+    - eso sería genial
+    - Yup
+    - Yea
+    - Yeah
+    - Yeah seguro
+    - Yep
+    - Yep suena bien
+    - Sep
+    - Sipp
+    - Sip
+    - Si
+    - si porfa
+    - sii
+    - eso
+    - sip
+    - ah si
+    - si
+    - sii porque?
+    - si pero no está
+    - si con el digame
+    - si claro
+    - si dime
+    - si con el
+    - ah bueno
+    - si, con el
+    - si pero no esta
+    - si digame
+    - si con el mismo
+    - si con quien
+    - yo creo que si
+- intent: negación
+  examples: |
+    - no puedo
+    - no creo
+    - no
+    - pienso que no
+    - nunca
+    - de ninguna manera
+    - nope
+    - nada
+    - jamás
+    - equivocado
+    - me declino
+    - no me gusta eso
+    - no lo creo
+    - ehh no
+    - no quiero aceptar
+    - creo que me referia a que no
+    - yo creo que no
+    - no estoy seguro
+    - no lo conozco
+    - no soy
+    - no señor
+    - nop
+    - no señorita
+    - nop, no soy
+    - no equivocado
+    - no quiero
+    - ehhh no
+    - ahh ok, no lo conozco
+    - ah no
+    - no lo cacho
+    - ahh ok, no
+- intent: saludos
+  examples: |
+    - hola
+    - ola
+    - alo
+    - que tal?
+    - Hola
+    - Holaaaaaaaaaa
+    - holaaaaaaa
+    - alooooooo
+    - olaaa
+    - yo
+    - buenos dias
+    - hi
+    - alo ahí
+    - hey
+    - buenas tardes
+    - hello
+    - alo?
+    - hola estás ahi?
+    - alo estas ahi?
+    - Hey
+    - hi!
+    - hola tu
+    - Holas
+    - Bienvenido
+    - Hola gertrudis
+    - holas
+    - Alo
+- intent: despedida
+  examples: |
+    - adios
+    - chao
+    - nos vemos
+    - xao
+    - arioz
+    - nos vemos al rato
+    - chau
+    - termine
+    - salir
+    - parar
+    - bye
+    - hasta luego
+    - goodbye
+    - muchas gracias, nos vemos
+    - que tenga un buen dia, adios
+    - bye bye
+    - debo irme
+    - bye bye bot
+    - adios por ahora
+    - adios fue bueno hablar contigo
+    - bye!
+    - chaooo
+    - ciao
+    - cya
+    - farewell
+    - good bye
+    - good bye bot!
+    - buenas noches
+- intent: out_of_scope
+  examples: |
+    - yo creo
+    - digame
+    - ok
+    - s
+    - asdas
+    - no entendí repite
+    - repitelo
+    - repite
+    - me puede repetir la pregunta
+    - lo puede repetir?
+    - repita porfavor
+    - no entendí
+    - de nuevo porfavor
+    - me repite porfavor?
+    - me repite porfa?
+    - no entendí, denuevo  porfa
+    - me puede repetir la pregunta?
+    - no entendi, denuevo porfa
+    - no entendi, repite porfavor
+    - no entendí, repita porfavor
+    - me repite porfa
+    - como
+    - como?
+    - no escuche repita porfavor
+    - repiteme porfavor
+    - no entendi
+    - como dijo?
+    - ah ya
+    - ya
+- intent: que_fecha
+  examples: |
+    - a cuanto estamos?
+    - que fecha es hoy?
+    - que fecha es?
+    - que día es hoy
+    - dime la fecha
+    - disculpa cual era la fecha?
+    - fecha
+    - que fecha es
+- intent: como_estas
+  examples: |
+    - como estás?
+    - como te va?
+    - como has estado?
+    - que tal?
+    - como te ah ido
+    - como estas
+- intent: que_hora
+  examples: |
+    - que hora es
+    - dime la hora
+    - hora porfavor
+    - hora
+    - disculpa cual era la hora?
+- intent: gracias
+  examples: |
+    - ok gracias
+    - gracias
+
+- intent: bien
+  examples: |
+    - bien gracias
+    - muy bien
+    - espectacular
+    - increible

@@ -1,0 +1,27 @@
+version: "2.0"
+rules:
+
+
+
+  - rule: eres bot?
+    steps:
+      - intent: eres_humano
+      - action: utter_bot
+
+  - rule: adios
+    steps:
+      - intent: despedida
+      - action: utter_despedida
+  
+  - rule: gracias
+    steps:
+      - intent: gracias
+      - action: utter_denada
+
+  - rule: fallback
+    steps:
+      - intent: out_of_scope
+      - action: utter_default
+
+
+
