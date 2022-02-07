@@ -22,7 +22,7 @@ def ConverterDate():
      dia=now.day
      mes=now.month
      anio=now.year
-     nombreMes=month_converter(mes)
+     nombreMes=month_converter(mes-1)
      hora=f'{now.hour}:{now.minute}'
      
 
